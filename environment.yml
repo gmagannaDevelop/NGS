@@ -6,6 +6,7 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
+  - bedtools=2.30.0=h7d7f7ad_2
   - bwa=0.7.17=h5bf99c6_8
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
@@ -52,6 +53,8 @@ dependencies:
   - tk=8.6.11=h27826a3_1
   - trimmomatic=0.39=hdfd78af_2
   - tzdata=2021c=he74cb21_0
+  - varscan=2.4.4=hdfd78af_1
   - wheel=0.37.0=pyhd8ed1ab_1
   - xz=5.2.5=h516909a_1
   - zlib=1.2.11=h36c2ea0_1013
+prefix: /home/gml/anaconda3/envs/reprohack

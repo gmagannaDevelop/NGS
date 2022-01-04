@@ -1,5 +1,9 @@
 #!/usr/bin/env fish
 
+## Université Paris-Saclay
+## Atelier NGS
+## Student : Gustavo Magaña López
+
 # Directory parameters
 
 set --path reads Data/Reads
@@ -29,10 +33,10 @@ end
 
 mkdir $genome -p
 echo -n "Downloading genome..."
-wget $genome_url -P $genome -q
+wget $genome_url -P $genome 
 echo Done
 echo -n "Downloading annotations..."
-wget $annotation_url -P $genome -q
+wget $annotation_url -P $genome 
 echo Done
 echo "Decompress files..."
 gunzip -f $genome/*.gz
